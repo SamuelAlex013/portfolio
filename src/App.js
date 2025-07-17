@@ -90,6 +90,11 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title:"Reddit Persona Generator",
+      description: "AI-powered Reddit persona generator using Python and LLMs.",
+      github: "https://github.com/SamuelAlex013/reddit-persona-generator.git"
+    },
+    {
       title: "AI Booking Agent",
       description: "Intelligent calendar assistant using LangChain, FastAPI, Streamlit.",
       github: "https://github.com/SamuelAlex013/AI-booking-agent",
