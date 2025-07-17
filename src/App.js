@@ -86,6 +86,7 @@ const AboutSection = () => {
   );
 };
 
+
 // Projects Section Component
 const ProjectsSection = () => {
   const projects = [
