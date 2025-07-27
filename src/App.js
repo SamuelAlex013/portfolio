@@ -91,6 +91,11 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title:"Credit Risk Score prediction",
+      description: "Machine Learning model to predict credit risk score in Ethereum wallets",
+      github: "https://github.com/SamuelAlex013/Credit_Approval_backend"
+    },
+    {
       title:"Credit Approval System",
       description: "Backend credit approval system with Django and Docker",
       github: "https://github.com/SamuelAlex013/Credit_Approval_backend"
