@@ -91,9 +91,14 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title:"Credit Approval System",
+      description: "Backend credit approval system with Django and Docker",
+      github: "https://github.com/SamuelAlex013/Credit_Approval_backend"
+    },
+    {
       title:"Reddit Persona Generator",
       description: "AI-powered Reddit persona generator using Python and LLMs.",
-      github: "https://github.com/SamuelAlex013/reddit-persona-generator.git"
+      github: "https://github.com/SamuelAlex013/reddit-persona-generator"
     },
     {
       title: "AI Booking Agent",
