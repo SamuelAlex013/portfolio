@@ -91,6 +91,7 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      
       title:"Earth911 Scraper",
       description: "LLM based scraper for the Earth911 website to fetch real time data",
       github: "https://github.com/SamuelAlex013/Earth911_Scraper"
