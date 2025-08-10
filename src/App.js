@@ -91,6 +91,21 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title:"Earth911 Scraper",
+      description: "LLM based scraper for the Earth911 website to fetch real time data",
+      github: "https://github.com/SamuelAlex013/Earth911_Scraper"
+    },
+    {
+      title:"Analytics Dashboard",
+      description: "Interactive UI/UX Design web application for a visually stunning dashboard",
+      github: "https://github.com/SamuelAlex013/AI_Analytics_Dashboard"
+    },
+    {
+      title:"Court Case Fetcher",
+      description: "Web Application to fetch dehli high court cases in real time using web scraping.",
+      github: "https://github.com/SamuelAlex013/Case_Fetcher"
+    },
+    {
       title:"Credit Risk Score prediction",
       description: "Machine Learning model to predict credit risk score in Ethereum wallets",
       github: "https://github.com/SamuelAlex013/Credit_Approval_backend"
