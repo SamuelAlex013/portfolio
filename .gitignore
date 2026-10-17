@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local design exploration and verification artifacts
+/.impeccable/
+/public/resume.html
