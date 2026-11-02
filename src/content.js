@@ -11,13 +11,18 @@ const details = {
     notes: [['Retries should be safe', 'Idempotency keys and transactional writes keep repeated submissions from creating duplicate records.'], ['Jobs need a recovery path', 'An outbox and durable background jobs preserve work when provider calls or processes fail.'], ['The product has to ship', 'Maintained the Azure VM backend, Vercel frontend, and deployment and recovery runbooks.']],
     flow: [['intake', 'Lead intake', 'Forms, imports, and APIs', 'Validate incoming data and authenticate the submitting integration before creating or linking a contact.'], ['database', 'PostgreSQL', 'Accounts and activity', 'Persist contacts, accounts, campaigns, and their activity with transactional writes and scoped access.'], ['jobs', 'Background jobs', 'Schedule, retry, recover', 'Execute campaigns through durable jobs, timezone-aware schedules, idempotency, and outbox recovery.'], ['providers', 'Providers', 'Smartlead · HeyReach', 'Connect email and LinkedIn outreach providers, then reconcile their responses through webhooks.']],
   },
-  'Computer Use / SkillPilot': {
-    title: 'SkillPilot', short: 'Demonstrations into reusable skills', icon: 'workflow',
-    intro: 'Record a desktop workflow once, turn the demonstration into a reusable skill, and replay it with verification. My work covered the recording pipeline, Python API, compilation, and durable execution.',
-    stack: ['Python', 'FastAPI', 'VideoDB', 'VLMs', 'Windows automation'],
-    contributions: ['Captured screen video, sampled frames, input events, and typed values for demonstrated workflows.', 'Built background skill compilation with versioned SKILL.json and SKILL.md artifacts.', 'Implemented queued replay, checkpoints, resume/cancel controls, and per-inference audit trails.'],
-    notes: [['More than a screen recording', 'Input events and desktop context complement video evidence.'], ['Execution is inspectable', 'Screenshots and per-action verification make replay behavior reviewable.'], ['Interrupted work survives', 'Durable compilation and checkpoints let runs continue without discarding completed steps.']],
-    flow: [['capture', 'Record', 'Video and input events', 'Capture what the user sees and does during the demonstrated workflow.'], ['frames', 'Understand', 'Sampled visual evidence', 'Use structured VLM analysis with frames and desktop context.'], ['file', 'Compile', 'Versioned skill artifacts', 'Produce SKILL.json and SKILL.md as reusable, versioned execution guidance.'], ['workflow', 'Replay', 'Checkpoints and checks', 'Execute the skill with screenshot verification, resumable state, and cancellation.']],
+  'Open Record Replay': {
+    title: 'Open Record Replay', short: 'Demonstrations into reusable skills', icon: 'workflow',
+    intro: 'An open-source Python MCP server that turns desktop demonstrations into reusable AI-agent skills.',
+    stack: ['Python', 'MCP', 'LLM APIs'],
+    contributions: ['Built the MCP server and desktop-demonstration workflow.', 'Integrated model-generated outputs into structured, versioned skill artifacts.', 'Added configurable inputs and verification guidance for agents using the skills.'],
+  },
+  'Computer Use Application': {
+    title: 'Computer-use application', short: 'Instructions into completed computer tasks', icon: 'workflow',
+    intro: 'An instruction-driven application where an AI model interacts with a computer through an execution harness to complete user tasks.',
+    stack: ['AI agents', 'Computer use', 'Execution harness'],
+    contributions: ['Built the computer-use application during my VideoDB internship.', 'Connected user instructions with model-led computer interaction through an execution harness.'],
+    resultLabel: 'Business impact', result: 'Supported an enterprise deal.',
   },
   'EgoStandard Robotics Retrieval Benchmarking': {
     title: 'EgoStandard retrieval', short: 'Video search, measured carefully', icon: 'search',

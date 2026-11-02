@@ -1,5 +1,13 @@
 export const internshipProjects = [
   {
+    "id": "computer-use-application",
+    "title": "Computer Use Application",
+    "category": "Automation",
+    "origin": "VideoDB",
+    "description": "Built an instruction-driven computer-use application with an execution harness for model-led task completion. Users provide instructions and an AI model interacts with the computer to carry out the task. The application supported an enterprise deal.",
+    "summary": "An instruction-driven application that uses an AI model and execution harness to complete computer tasks."
+  },
+  {
     "id": "internship-0",
     "title": "chess-lens",
     "category": "Applications",
@@ -17,11 +25,12 @@ export const internshipProjects = [
   },
   {
     "id": "internship-2",
-    "title": "Computer Use / SkillPilot",
+    "title": "Open Record Replay",
     "category": "Automation",
     "origin": "VideoDB",
-    "description": "Built a headless Windows desktop automation system that records demonstrated workflows and compiles them into reusable skills. The system captures screen video, sampled keyframes, foreground-window/input events, typed values, and desktop context; uploads recordings to VideoDB; performs structured VLM understanding; generates versioned `SKILL.json` and `SKILL.md`; and replays workflows through model-guided computer control with screenshot-based verification after each action. It also included a local FastAPI-style API, durable background compilation, run queues, checkpoints, resume/cancel support, per-inference audit trails, OpenAI/Holo-compatible replay endpoints, and a shared VM handoff for YouTube upload and ERPNext invoice tasks.",
-    "summary": "Built a headless Windows desktop automation system that records demonstrated workflows and compiles them into reusable skills."
+    "description": "Built Open Record Replay, an open-source Python MCP server that turns desktop demonstrations into reusable AI-agent skills. Integrated model-generated outputs into structured, versioned artifacts with configurable inputs and verification guidance.",
+    "summary": "An open-source MCP server that turns desktop demonstrations into reusable AI-agent skills.",
+    "github": "https://github.com/video-db/open-record-replay"
   },
   {
     "id": "internship-3",
